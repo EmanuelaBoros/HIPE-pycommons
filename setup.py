@@ -8,7 +8,7 @@ def read(fname):
 
 setup(
     name="hipe_commons",
-    url="https://github.com/hipe-eval/HIPE-pycommons",
+    url="https://github.com/EmanuelaBoros/HIPE-pycommons",
     version="0.3.0",
     packages=find_packages(),
     classifiers=[
@@ -20,6 +20,7 @@ setup(
     ,
     install_requires=[
         "pandas",
+        "numpy",
         "tabulate",
         "stringdist"
     ],
